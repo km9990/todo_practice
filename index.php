@@ -7,8 +7,25 @@
 require_once('./Models/Task.php');
 require_once('./function.php');
 
+// model.phpのGET ALLを使う
 $task = new Task();
 $tasks = $task->getAll();
+
+// デバック
+// データがはいているか
+// どういう型
+// var_dump($tasks);
+
+// $arr2 = [
+//     ['id'=> 1,'text'=>'こんにちは'];
+//     ['id'=> 2,'text'=>'こんにちは1'];
+//     ['id'=> 3,'text'=>'こんにちは'2];
+// ];
+
+// データの取得
+// foreach($tasks as $task){
+
+// }
 
 ?>
 <!DOCTYPE html>

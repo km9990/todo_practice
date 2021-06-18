@@ -41,6 +41,9 @@ class Model
 
         // 実行結果を取得
         $tasks = $stmt->fetchAll();
+        // fetchAll 全件取得
+        // fetch 1件取得
+
 
         // return === 関数の呼び出し元に、値を返す
         return $tasks;
